@@ -1,0 +1,12 @@
+body {
+  background: linear-gradient(
+    to left,
+    #333,
+    rgb(246, 238, 0) 50%,
+    #00d5ab 100%,
+    #333 100%
+  );
+}
+a {
+  text-decoration: none;
+}

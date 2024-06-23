@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="Instruments.css" />
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <title>Instruments</title>
+  </head>
+  <body>
+    <h1>Musical Instruments</h1>
+    <div class="accordion" id="accordionExample">
+      <div class="accordion-item">
+        <h2 class="accordion-header">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Instructions
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+            <strong>      <table>
+              <tr>
+                <th>INSTRUMENT</th>
+                <th>KEY</th>=
+              </tr>
+              <tr>
+                <td>Drums</td>
+                <td>"D"</td>
+              </tr>
+              <tr>
+                <td>Guitar</td>
+                <td>"G"</td>
+              </tr>
+              <tr>
+                <td>Piano</td>
+                <td>"P"</td>
+              </tr>
+              <tr>
+                <td>Trumpet</td>
+                <td>"T"</td>
+              </tr>
+              <tr>
+                <td>Violin</td>
+                <td>"V"</td>
+              </tr>
+              <tr>
+                <td>Flute</td>
+                <td>"F"</td>
+              </tr>
+            </table>
+          </div>
+        </div>
+      </div>
+  </div>
+    <div class="container">
+      <div class="drums">
+        <img src="Images/Drums.jpeg" alt="Drums" />
+        <audio src="Sounds/Drum roll sound effect.mp3"></audio>
+      </div>
+      <div class="guitar">
+        <img src="Images/guitar.avif" alt="Guitar" />
+        <audio src="Sounds/GUITAR SOUND EFFECT.mp3"></audio>
+      </div>
+      <div class="piano">
+        <img src="Images/piano.avif" alt="Piano" />
+        <audio src="Sounds/Piano Sound Effect.mp3"></audio>
+      </div>
+    </div>
+    <div class="container">
+      <div class="trumpet">
+        <img src="Images/trumpet.jpeg" alt="Piano" />
+        <audio src="Sounds/Cartoon Trumpet  Sound Effect.mp3"></audio>
+      </div>
+      <div class="violin">
+        <img src="Images/violin.jpeg" alt="Piano" />
+        <audio
+          src="Sounds/What does a violin sound like_ (Ode to Joy).mp3"
+        ></audio>
+      </div>
+      <div class="flute">
+        <img src="Images/flute.jpeg" alt="Piano" />
+        <audio src="Sounds/Flute - what it sounds like.mp3"></audio>
+      </div>
+    </div>
+    <script src="Instruments.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,32 @@
+.entire{
+    width: 500px;
+    height: 200px;
+    background-color: #98c1d9;
+    border-radius: 15px;
+    margin-top: 250px;
+   
+}
+#add{
+    background-color: #ee6c4d;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius:5px ;
+    border-top-left-radius: 5px ;
+    border-bottom-left-radius: 5px;
+    height: 30px;
+
+    
+}
+#clear{
+    background-color: #ee6c4d;
+    border-bottom-right-radius: 7px;
+    border-top-right-radius:7px ;
+    border-top-left-radius: 7px ;
+    border-bottom-left-radius: 7px;
+    height: 30px;
+}
+#item{
+    height: 30px;
+    width: 300px;
+    border-radius: 7px;
+    background-color: lightgray;
+}

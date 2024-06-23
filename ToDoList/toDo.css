@@ -1,0 +1,109 @@
+
+.modal {
+    position: fixed; 
+    padding-top: 100px; 
+    left: 0;
+    top: 0;
+    width: 100%; 
+    height: 100%; 
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 10px;
+  }
+  
+  .modal-content {
+    background-color: #ffdf00;
+    margin: auto;
+    padding: 20px;
+    border: 10px #ffdf00;
+    width: 80%;
+  }
+  
+  /* The Close Button */
+  .close {
+    color: #aaaaaa;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  #task{
+    height: 20px;
+    width: 400px;
+  }
+  #notDone{
+    height: 300px;
+    width: 600px;
+    background-color:rgb(185, 185, 185);
+    text-align: center; 
+    border-radius: 20px;
+  }
+  
+  #done{
+    height:300px;
+    width: 600px;
+    background-color: rgb(185, 185, 185);
+    text-align:center;
+    border-radius: 20px;
+  }
+  #date{
+    height: 20px;
+    width: 400px;
+  }
+  #printdate{
+    display: inline;
+  }
+
+  body {
+    margin: 0;
+    background: linear-gradient(to left, #333, #333 50%, #ffdf00 100%, #333 100%);
+    
+   
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 36px;
+    background-color: #36454f;
+  }
+
+  .btn {
+    width: 95px;
+    height: 45px;
+    border-radius: 5px;
+    background-color:#ffdf00;
+    border: none;
+    cursor: pointer;
+  }
+
+  .color-gray {
+    color: gray
+  }
+
+  nav div {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+  }
+
+
+  .flex {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px;
+  }
+  h3{
+    color: #ffdf00;
+  }
+  .entry span{
+    padding: 10px;
+  }
+
+
+
+ 
