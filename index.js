@@ -39,12 +39,12 @@ const descriptions = [
         const div = document.createElement("div")
         div.classList.add("card")
         div.style = "width : 18rem;"
-        
+        const url = `https://ronyboxer.github.io/Portfolio/${sources[index]}`
         div.innerHTML = `
         <div class="card-body">
         <h5 class="card-title">${project}</h5>
         <p class="card-text">${descriptions[index]}</p>
-        <button type="button" class="btn btn-secondary"><a href="${sources[index]}" class="card-link"></a>Click</button>
+        <button type="button" class="btn btn-secondary"><a href="${url}"+ class="card-link"></a>Click</button>
       </div>
     </div>
        `
